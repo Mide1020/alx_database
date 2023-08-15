@@ -1,4 +1,3 @@
--- List all databases on a MYSQL server
-
--- List all databases
-SHOW DATABASES;
+-- Creates the database if it doesn't exist 
+CREATE DATABASE IF NOT EXISTS
+htbn_0c_0
