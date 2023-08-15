@@ -1,3 +1,2 @@
--- List all tables in the specified database
-USE 'hbtn_0c_0';
-SHOW TABLES;
+-- Deletes the database if it exists
+DROP DATABASE IF EXISTS hbtn_0c_0;
