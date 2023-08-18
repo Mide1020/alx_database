@@ -1,3 +1,3 @@
 -- List all tables in the specified database
-USE MYSQL;
+USE hbtn_0c_0MYSQL;
 SHOW TABLES;
