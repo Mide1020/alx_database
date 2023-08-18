@@ -1,2 +1,2 @@
 -- List all tables in the specified database
-SELECT * MYSQL;
+SELECT * FROM MYSQL;
