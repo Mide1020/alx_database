@@ -1,14 +1,16 @@
 #!/bin/bash
 
-# MySQL user details
-mysql_user_1="user_0d_1"
-mysql_user_2="user_0d_2"
+-- This script lists the privileges of MySQL users user_0d_1 and user_0d_2 on localhost.
 
-# MySQL root password
-mysql_root_password="ayomide"
+-- MySQL user details
+MYSQL_USER_1="user_0d_1"
+MYSQL_USER_2="user_0d_2"
 
-# Command to list privileges for user_0d_1
-mysql -h localhost -u root -p$mysql_root_password -e "SHOW GRANTS FOR '$mysql_user_1'@'localhost';"
+-- MySQL root password
+MYSQL_ROOT_PASSWORD="ayomide"
 
-# Command to list privileges for user_0d_2
-mysql -h localhost -u root -p$mysql_root_password -e "SHOW GRANTS FOR '$mysql_user_2'@'localhost';"
+-- Command to list privileges for user_0d_1
+mysql -h localhost -u root -p$MYSQL_ROOT_PASSWORD -e "SHOW GRANTS FOR '$MYSQL_USER_1'@'localhost';"
+
+-- Command to list privileges for user_0d_2
+mysql -h localhost -u root -p$MYSQL_ROOT_PASSWORD -e "SHOW GRANTS FOR '$MYSQL_USER_2'@'localhost';"
