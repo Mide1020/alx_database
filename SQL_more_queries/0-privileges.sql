@@ -1,5 +1,3 @@
-#!/bin/bash
-
 -- This script lists the privileges of MySQL users user_0d_1 and user_0d_2 on localhost.
 
 -- Prompt the user to enter the MySQL root password
