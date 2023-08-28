@@ -1,8 +1,8 @@
--- This script assumes you're passing the database name as an argument
--- Replace 'your_database_name' with the actual database name in the command line
+-- Create the database if not exists
+CREATE DATABASE IF NOT EXISTS hbtn_test_db_5;
 
 -- Use the specified database
-USE your_database_name;
+USE hbtn_test_db_5;
 
 -- Create table unique_id if not exists
 CREATE TABLE IF NOT EXISTS unique_id (
