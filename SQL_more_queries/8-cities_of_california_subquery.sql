@@ -1,4 +1,7 @@
--- Use the specified database
+-- Create database hbtn_0d_usa if not exists
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
+
+-- Use the hbtn_0d_usa database
 USE hbtn_0d_usa;
 
 -- List cities of California
