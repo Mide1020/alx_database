@@ -1,5 +1,5 @@
--- Creating a table in my Mysql server
-CREATE TABLE IF NOT EXISTS force_name(
-    id INT,
-    name VARCHAR(256) NOT NULL
-);
+-- Listing the list of california cities
+SELECT cities.id, cities.name
+FROM cities
+WHERE state_id = (SELECT id FROM states WHERE name = 'California')
+ORDER BY cities.id ASC;
