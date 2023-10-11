@@ -1,3 +1,2 @@
--- List all tables in the specified database
-USE hbtn_0c_0;
+-- This script is list tables of a database in MySQL server.
 SHOW TABLES;
